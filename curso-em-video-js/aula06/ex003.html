@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello, world!</title>
+    <style>
+        body {
+            background-color: pink; /* Comentário em CSS */
+            color: brown;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>  <!--Comentário em HTML -->
+    <p>Teste</p>
+
+    <script>
+        var n1 = Number.parseInt(window.prompt('Digite um número: ')) //variável n1 recebe informacao que vier do prompt, covertido em numero inteiro
+        var n2 = Number(window.prompt('Digite outro número: '))//variável n2 recebe informacao que vier do prompt, covertido em numero do tipo mais adequado (inteiro ou float)
+        var soma = n1 + n2
+        window.alert(`A soma entre ${n1} e ${n2} é igual a ${soma}.`) 
+        //+ serve para concantenação quando string + number
+        // + serve para adição quando string + string ou number + number
+    </script>
+</body>
+</html>
